@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans, Yeseva One, Arial, Helvetica, sans-serif; 
+}
+      
+body * {
+  box-sizing: border-box;
+}
+  
+.container {
+  max-width: 1440px;
+  margin:0 auto;  
+} 
+
+
+.project {
+  background-color: #000;
+}
+
+.project-container{
+  padding-top: 107px;
+  padding-bottom: 107px;
+  max-width: 1171px;
+}
+
+.project-navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 45px;
+}
+  
+.project-navigation a {
+ margin-right: 60px;
+ text-decoration: none;
+ color: #fff;
+ font-family: 'Yeseva One';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 19px;
+ text-transform: uppercase;
+}
+.a {
+  cursor: pointer; 
+}
+
+a:hover {
+ color: #E3B873;
+}
+
+.projects-content {
+ display: flex;
+ justify-content: space-between;
+}
+
+.projects-content-text {
+ display: flex;
+ flex-direction: column;
+ width: 442px;
+}
+  
+.projects-title{
+ font-family: 'Yeseva One';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 27px;
+ line-height: 37px;
+ letter-spacing: -0.07em;
+ text-transform: uppercase;
+ color: #E3B873;
+ margin-bottom: 34px;
+}
+  
+.project-text {
+ font-family: 'Nunito Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 27px;
+ color: #FFFFFF;
+ margin-bottom: 42px;
+} 
+ 
+.line-decorate{
+  padding-bottom: 7px;
+  padding-left: 0 !important;
+}
+
+.line-decorate:hover {
+  border-bottom: 1px solid #e3b873;
+}
+
+.description {
+ display: flex;
+ flex-wrap: wrap;
+}
+  
+.description-item {
+ width: 50%;
+ padding-bottom: 34px;
+}
+  
+.description-item-title {
+ font-size: 18px;
+ line-height: 25px;
+ margin-bottom: 9px;
+ color: #e3b873;
+} 
+  
+.description-text {
+ font-family: 'Nunito Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 13px;
+ line-height: 21px;
+ color: #FFFFFF;
+}
+  
+.arrows {
+ display: flex;
+ justify-content: space-between;
+ width: 50%;
+ padding-top: 80px;
+} 
+  
+
+.slider-arrow-left, .slider-arrow-right {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.title{
+ margin:0;
+ font-family: 'Yeseva One';
+ font-style: normal;
+ font-weight: 400; 
+ text-transform: uppercase;
+}
+
+
+.slider {
+ width: 679px;
+ height: 482px;
+ position: relative;
+ overflow: hidden;
+ background-image: url('project-rostov.png');
+
+}
+  
+ 
+  .slider-arrow-left,
+  .slider-arrow-right {
+    cursor: pointer;
+    opacity: 0.3;
+  }
+  
+  .slider-arrow-left:hover {
+    opacity: 1;
+  }
+  
+  .slider-arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .dot {
+    cursor: pointer;
+    opacity: 0.3;
+    padding-left: 17px;
+  }
+  
+  .dot-1 {
+    opacity: 1;
+  }
+  
+  .dot:hover {
+    opacity: 1 !important;
+  }
+  
+  .brown-hypertext {
+    border-bottom: 1px solid #e3b873;
+    color: #e3b873 !important;
+  }
+  
+ 
+ 
